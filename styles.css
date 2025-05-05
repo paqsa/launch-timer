@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Martian+Mono:wght@100..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/bg-stars.svg);
+    font-family: "Red Hat Text";
+    background-color: #1D1E28;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startSection h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Red Hat Text";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+}
+
+.startSection {
+    display: flex;
+    gap: 104px;
+    flex-direction: column;
+}
+
+.paperClass {
+    width: 148px;
+    height: 132px;
+    border-radius: 8px;
+    background-color: rgba(52, 54, 80, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startSectonDivs {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+
+.styleOfNumber {
+    color: #FB5E84;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+}
+
+.styleOfDate {
+    color: #8385A9;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.919px;    
+    text-align: center;
+    margin-top: 13px;
+}
